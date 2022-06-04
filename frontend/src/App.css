@@ -1,0 +1,41 @@
+body {
+  background-color: #ece3df;
+}
+.product-feature {
+  margin: 50px;
+  text-align: center;
+  color: rgb(41, 46, 44);
+  font-size: 20;
+}
+.site-container {
+  min-height: 100vh;
+}
+.main {
+  flex: 1;
+}
+
+/* Rating */
+.rating{
+
+display: flex;
+flex-direction: row;}
+.rating span {
+  color: #ffb901;
+  font-size: 0.9rem;
+  margin: 0.1rem;
+}
+.rating span:last-child {
+  color: #444444;
+  font-size: 0.2rem;
+}
+a > .rating > span:last-child {
+  color: #0000ff;
+}
+h6 {
+  color: #ffb901;
+  font-weight: 500;
+}
+ .card-bg{
+ background-color:#f8f7a5;
+  box-shadow: 10px 10px 8px #888888;
+ }
