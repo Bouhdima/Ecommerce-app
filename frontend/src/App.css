@@ -1,5 +1,5 @@
 body {
-  background-color: #ece3df;
+  background-color: white;
 }
 .product-feature {
   margin: 50px;
@@ -7,22 +7,31 @@ body {
   color: rgb(41, 46, 44);
   font-size: 20;
 }
-.site-container {
+.App {
   min-height: 100vh;
 }
 .main {
   flex: 1;
 }
-
+.top-menu{
+background-color:rgb(241, 140, 103);
+text-align: left;
+height:60px;
+padding-bottom:20px;
+}
 /* Rating */
-.rating{
+.rating {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
 
-display: flex;
-flex-direction: row;}
 .rating span {
   color: #ffb901;
   font-size: 0.9rem;
   margin: 0.1rem;
+  display: flex;
+  flex-direction: column;
 }
 .rating span:last-child {
   color: #444444;
@@ -35,7 +44,7 @@ h6 {
   color: #ffb901;
   font-weight: 500;
 }
- .card-bg{
- background-color:#f8f7a5;
+.card-bg {
+  background-color: #f8f7a5;
   box-shadow: 10px 10px 8px #888888;
- }
+}

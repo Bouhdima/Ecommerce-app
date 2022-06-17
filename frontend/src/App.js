@@ -10,8 +10,8 @@ import { LinkContainer } from "react-router-bootstrap";
 function App() {
   return (
     <BrowserRouter>
-      <div className="d-flex flex-column site-container">
-        <header className="bg-white m-20">
+      <div className="d-flex flex-column site-container ">
+        <header className="top-menu m-20">
           <Navbar>
             <Container>
               <LinkContainer to="/">
@@ -20,7 +20,7 @@ function App() {
             </Container>
           </Navbar>
         </header>
-        <main>
+        <main className="App">
           <Container>
             <Routes>
               <Route path="/product/:slug" element={<ProductScreen />}></Route>
